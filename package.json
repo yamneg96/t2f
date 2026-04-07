@@ -1,0 +1,27 @@
+{
+  "name": "tailwind2figma",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Convert HTML + Tailwind CSS into fully editable Figma designs",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "typecheck": "turbo run typecheck",
+    "dev:api": "npm run dev --workspace=apps/api",
+    "dev:web": "npm run dev --workspace=apps/web",
+    "clean": "turbo run clean && rimraf node_modules"
+  },
+  "devDependencies": {
+    "rimraf": "^6.0.1",
+    "turbo": "^2.9.5"
+  },
+  "packageManager": "npm@10.0.0",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

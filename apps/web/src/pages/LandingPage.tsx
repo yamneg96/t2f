@@ -351,7 +351,7 @@ export default function LandingPage() {
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between gap-12">
           <div className="space-y-6 max-w-sm">
             <div className="text-2xl font-bold tracking-tighter text-[var(--sm-on-surface)] uppercase font-label">
-              SYNTHETIC_MONOLITH
+              T2F
             </div>
             <p className="text-sm text-[var(--sm-on-surface-variant)] leading-relaxed">
               Bridging the engineering-design divide through automated schema
